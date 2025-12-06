@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FSTTests" thread-count = "2" parallel ="classes" >
+	<groups> <!-- Groups Control -->
+        <run>
+            <include name="HeaderTests" />
+            <!--<include name="ButtonTests" /> -->
+        </run>
+    </groups>
+    <test name="SuiteTests" >
+        <classes>
+            <class name="activities.TestActivity4_DemoOne"/>
+            <class name="activities.TestActivity4_DemoTwo"/>
+            <class name="activities.Test_Activity5"/>
+        </classes>
+    </test>
+</suite>

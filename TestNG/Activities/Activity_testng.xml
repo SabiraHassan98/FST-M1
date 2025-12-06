@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" thread-count = "2" parallel ="classes" >
+    <test name="SuiteTests" >
+        <classes>
+            <class name="activities.TestActivity4_DemoOne"/>
+            <class name="activities.TestActivity4_DemoTwo"/>
+            <class name="activities.Test_Activity1" />
+            <class name="activities.TestActivity2" />
+            <class name="activities.TestActivity3" />
+            <class name="activities.Test_Activity5" />
+            <class name="activities.TestActivity6" />
+            <class name="activities.TestActivity7" />
+        </classes>
+    </test>
+</suite>
